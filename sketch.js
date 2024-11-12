@@ -54,7 +54,7 @@ function modelLoaded() {
 }
 
 function draw() { //this function loops 60x a second while the program is running
-  image(video, 0, 0); //shows the video being captured
+  image(video, 0, 0, width, height); //shows the video being captured
 
   // if (pose) {
   //   let eyeR = pose.rightEye; //right eye
